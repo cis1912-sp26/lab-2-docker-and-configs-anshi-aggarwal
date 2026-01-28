@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from app.routers import notes
+from app.config import settings
 from app.models.db import create_tables
 
 
